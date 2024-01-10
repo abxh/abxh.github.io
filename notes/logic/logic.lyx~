@@ -173,7 +173,7 @@ mathematical argument
 \emph default
  consists of a sequence of premises and a conclusion.
  Let 
-\begin_inset Formula $p_{1},p_{2},p_{3},\ldots,p_{n}$
+\begin_inset Formula $p_{1},p_{2},\ldots,p_{n}$
 \end_inset
 
  be the premises and 
@@ -185,7 +185,7 @@ mathematical argument
 \emph on
 valid
 \emph default
- if the conclusion cannot be false when all of the premises hold true.
+ if the conclusion cannot be false when all of the premises holds true.
 \end_layout
 
 \begin_layout Definition
@@ -197,8 +197,113 @@ valid
 
 \end_layout
 
-\begin_layout Definition
+\begin_layout Standard
+Saying that an argument is valid is merely the assertion that, 
+\emph on
+if
+\emph default
+ the premises holds true, then the conclusion is as well.
+ If any of the premises are false, then the argument does not make any claims
+ of any conclusion.
+ In this case the argument will stay valid.
+ Similarly, if any of the premises turns out to be false in reality, then
+ the argument is still valid.
+ Since it's merely an assertion that is made 
+\emph on
+when
+\emph default
+ the premises are true.
+\end_layout
 
+\begin_layout Standard
+For the sake of proving that an argument is valid, we merely need to know
+ the whether each premise is true or false, and in the cases where all of
+ the premises are true check if the conclusion is true as well.
+\end_layout
+
+\begin_layout Standard
+An premise or conclusion can have multiple parts, each of which can be true
+ or false.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+I will wear my raincoat and gummies
+\begin_inset Quotes erd
+\end_inset
+
+ has four scenarios we have to consider depending on whether 
+\begin_inset Quotes eld
+\end_inset
+
+I will wear my raincoat
+\begin_inset Quotes erd
+\end_inset
+
+ is true or false, and 
+\begin_inset Quotes eld
+\end_inset
+
+I will wear my gummies
+\begin_inset Quotes erd
+\end_inset
+
+ is true or false.
+ (Can you see why?)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+I will wear my raincoat and gummies
+\begin_inset Quotes erd
+\end_inset
+
+ is a smaller part of the more larger statement 
+\begin_inset Quotes eld
+\end_inset
+
+If it rains today, then I will wear my raincoat and gummies.
+\begin_inset Quotes erd
+\end_inset
+
+ This says that if 
+\begin_inset Quotes eld
+\end_inset
+
+it rains today
+\begin_inset Quotes erd
+\end_inset
+
+ is true, then 
+\begin_inset Quotes eld
+\end_inset
+
+I will wear my raincoat and gummies
+\begin_inset Quotes erd
+\end_inset
+
+ is true.
+\end_layout
+
+\begin_layout Standard
+The next premise says that 
+\begin_inset Quotes eld
+\end_inset
+
+I have not put on my raincoat today
+\begin_inset Quotes erd
+\end_inset
+
+.
+ What does that mean, if the previous premise holds true? If I have not
+ worn my raincoat today, then it cannot be that it rains today.
+ For it if rained today, then I must have both worn my raincoat and gummies
+ on, i.e.
+ I must have worn my raincoat on today.
+ Therefore, it is not raining today.
+ Hence the conclusion.
 \end_layout
 
 \end_body
